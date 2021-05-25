@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-config.dtd">
+<!-- 配置文件的根元素 -->
+<configuration>
+    <settings>
+       <!-- 具体的参数名和参数值 -->
+       <setting name="logImpl" value="STDOUT_LOGGING"/>
+    </settings>
+    <!-- 类型名称：为一些类定义别名 -->
+    <typeAliases>
+       <package name="com.hnjd.pojo"/>
+    </typeAliases>
+    <mappers>
+       <package name="com.hnjd.mapper"/>
+    </mappers>
+</configuration>
